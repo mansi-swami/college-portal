@@ -9,7 +9,7 @@ export const MOCK_APPLICATIONS: Application[] = [
     submittedAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 3).toISOString(),
     score: 86,
     status: "new",
-    docUrl: "/docs/ananya_transcript.pdf",
+    docUrl: "https://www.orimi.com/pdf-test.pdf",
     history: [{ at: new Date().toISOString(), action: "Submitted", by: "System" }],
   },
   {
